@@ -1,0 +1,240 @@
+{
+	autofocus_id: "44EBC30424E598C5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "Bounties"
+	group: ""
+	icon: {
+		Count: 1
+		id: "twilightforest:fiery_sword"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "457C3AC157FDF6FF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:zombie_spawn_egg"
+			id: "541A2971909E3448"
+			rewards: [{
+				count: 5
+				id: "1566C579346F38D8"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "1EE3FCD6E3BF930D"
+				title: "Kill Zombie"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill Zombie"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:skeleton_spawn_egg"
+			id: "6295005A16827797"
+			rewards: [{
+				count: 5
+				id: "6D5D85A5FFD0DDF5"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_spawn_egg"
+				id: "7BBCC20BE7473CFD"
+				title: "Kill skeleton"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill skeleton"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "16BE2B52768B781F"
+			rewards: [{
+				count: 5
+				id: "059034BAAD0DCF2B"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_spawn_egg"
+				id: "3E3F91AFD4735A39"
+				title: "Kill spider"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill Spider"
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "0BB8E1B9CFF854D7"
+			rewards: [{
+				count: 5
+				id: "7A77B07789F854C0"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "minecraft:enderman_spawn_egg"
+				id: "77E0230BAFCA97AE"
+				title: "Kill Enderman"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill Enderman"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			description: ["kill mobs to get coins"]
+			id: "44EBC30424E598C5"
+			subtitle: "Buonty"
+			tasks: [{
+				id: "4B4F720C37A3C468"
+				title: "Bounty"
+				type: "checkmark"
+			}]
+			title: "Buonty"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "031106DC2ECA3B73"
+			rewards: [{
+				count: 5
+				id: "4DAB7DD87E2AD1B5"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: "minecraft:witch_spawn_egg"
+				id: "5E954B13113C590C"
+				title: "Kill Witch"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill Witch"
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "77D22B35EF0CF185"
+			rewards: [{
+				count: 5
+				id: "2B0AC01DB109F581"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie_villager"
+				icon: "minecraft:zombie_villager_spawn_egg"
+				id: "1B299C0202C59B4D"
+				title: "Kill Zombie Villager"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill Zombie Villager"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "51540AD6528B4642"
+			rewards: [{
+				count: 5
+				id: "05EA15E7EA818B71"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "6E2D30B455695FD5"
+				title: "Kill Husk"
+				type: "kill"
+				value: 5L
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "494831B774701907"
+			rewards: [{
+				count: 5
+				id: "70D5D9262DDBCA4F"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "0044E72590540FAE"
+				title: "Kill Drowned"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill Drowned"
+			x: -7.5d
+			y: -0.5d
+		}
+	]
+	title: "Bounty"
+}
