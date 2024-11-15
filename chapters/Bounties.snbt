@@ -157,8 +157,8 @@
 				value: 5L
 			}]
 			title: "Kill Witch"
-			x: -3.5d
-			y: -3.5d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -234,6 +234,154 @@
 			title: "Kill Drowned"
 			x: -7.5d
 			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "0A72B337EF76F2EA"
+			rewards: [{
+				count: 5
+				id: "3D3B4AA7FB7173E8"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:stray"
+				icon: "minecraft:stray_spawn_egg"
+				id: "4E483623777E91BA"
+				title: "Kill Stray "
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill Stray "
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "3EC8A7F0251EC3A8"
+			rewards: [{
+				count: 5
+				id: "064D4C9226AA585C"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "1851D42CB309104E"
+				title: "Kill Cave Spider"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill Cave Spider"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "5EE03557A8A771AE"
+			rewards: [{
+				count: 5
+				id: "0907313F352CB66A"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "1BC431938FD2B556"
+				title: "Kill Creeper"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Kill Creeper"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "7B295D615EE82F2E"
+			rewards: [{
+				count: 5
+				id: "2679E4B14BA8A383"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "4BB689B14DF6DBF1"
+				title: "Kill Slime"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "2E9CB80A91CCB805"
+			rewards: [{
+				count: 5
+				id: "157B7B116BA265FA"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "01B38DC8E1D9AB84"
+				title: "Kill Phantom"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44EBC30424E598C5"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "18D3F9F20D415826"
+			rewards: [{
+				count: 5
+				id: "4AF444FB2F53250A"
+				item: "kuronomy:dollar_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:silverfish"
+				id: "111CB4B3BC319164"
+				title: "Kill Silverfish"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.5d
+			y: 1.5d
 		}
 	]
 	title: "Bounty"
